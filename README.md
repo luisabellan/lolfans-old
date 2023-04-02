@@ -1,5 +1,5 @@
-
+# League of Legends Fan site
+Stack: Next + Typescript + Tailwind + Emotion
 
 ## Getting Started
-
-Next + Typescript + Tailwind + Emotion
+See README2 for installation information
