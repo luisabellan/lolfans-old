@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 import HeaderMenu from '@/components/HeaderMenu'
 import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.scss'
+import styles from '@/styles/Players.module.scss'
 
 const inter = Inter({ subsets: ['latin'] })
 
