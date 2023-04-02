@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Link from 'next/link'
 
+import Image from 'next/image'
 import HeaderMenu from '@/components/HeaderMenu'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Players.module.scss'
@@ -20,7 +20,10 @@ export default function SearchPlayer() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <HeaderMenu />
-      <main className={styles.main}></main>
+      <main className={styles.main}>
+        <span>Search player</span>
+        <input type='text'></input>
+      </main>
     </>
   )
 }
